@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>718</width>
+    <height>486</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">padding:0;
+background-color:rgb(225, 223, 216);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:#F26419;</string>
+     </property>
+     <property name="text">
+      <string>Settings</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="save_button">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>30</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    font-size: 14px;
+ 
+	background-color:#9D4EDD;
+	border:none;
+	padding-left:12px;
+	padding-right:12px;
+	color:black;
+}
+
+QPushButton:hover {
+	background-color:#C77DFF;
+}</string>
+     </property>
+     <property name="text">
+      <string>Save Changes</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(225, 223, 216);
+border:none;</string>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>675</width>
+        <height>1182</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>20</number>
+       </property>
+       <property name="sizeConstraint">
+        <enum>QLayout::SetMaximumSize</enum>
+       </property>
+       <property name="topMargin">
+        <number>11</number>
+       </property>
+       <property name="bottomMargin">
+        <number>11</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="widget" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+background-color:#F1FFE7;
+border-radius:10px</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="spacing">
+           <number>7</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>10</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:none;
+color:#2F4858;</string>
+            </property>
+            <property name="text">
+             <string>Select Music Folder Path</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_4" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <widget class="QLabel" name="path_label">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color:#CDB4DB;
+color:black;
+padding-left:10px;</string>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="select_button">
+               <property name="maximumSize">
+                <size>
+                 <width>120</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    font-size: 12px;
+    transition: font-size 0.8s ease;
+	background-color:#A2D2FF;
+	border:none;
+	color:black;
+}
+
+QPushButton:hover {
+    font-size: 14px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Select Folder</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_2" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+background-color:#F1FFE7;
+border-radius:10px</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="minimumSize">
+             <size>
+              <width>25</width>
+              <height>10</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>400</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:none;
+color:#2F4858;</string>
+            </property>
+            <property name="text">
+             <string>Change wake word(Information about feature here)</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_5" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QLineEdit" name="wake_word_label">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color:#CDB4DB;
+color:black;
+padding-left:10px;</string>
+               </property>
+               <property name="text">
+                <string>Ruby</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="wake_button">
+               <property name="maximumSize">
+                <size>
+                 <width>120</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    font-size: 12px;
+	background-color:#A2D2FF;
+	border:none;
+	color:black;
+}
+
+QPushButton:hover {
+    font-size: 14px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Submit</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="default_wake_button">
+               <property name="maximumSize">
+                <size>
+                 <width>120</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    font-size: 12px;
+	background-color:#A2D2FF;
+	border:none;
+	color:black;
+}
+
+QPushButton:hover {
+    font-size: 14px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Default</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_3" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+background-color:#F1FFE7;
+border-radius:10px</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:none;
+color:#2F4858;</string>
+            </property>
+            <property name="text">
+             <string>Keep Running?</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_6" native="true">
+            <property name="styleSheet">
+             <string notr="true">margin:0px;</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <widget class="QCheckBox" name="tray_check_box">
+               <property name="styleSheet">
+                <string notr="true">border:none;
+font-size:10pt;
+background-color:#CDB4DB;
+color:black;
+padding:6px;</string>
+               </property>
+               <property name="text">
+                <string>Keep running in background</string>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>25</width>
+                 <height>25</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_7" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+background-color:#F1FFE7;
+border-radius:10px</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:none;
+color:#2F4858;</string>
+            </property>
+            <property name="text">
+             <string>Change Audio Input</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="audio_device">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:none;
+font-size:10pt;
+background-color:#CDB4DB;
+color:black;
+padding:6px;</string>
+            </property>
+            <property name="editable">
+             <bool>false</bool>
+            </property>
+            <property name="currentText">
+             <string>First</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>First</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Second</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Third</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Fourth</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_8" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>600</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>800</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+background-color:#F1FFE7;
+border-radius:10px</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:none;
+color:#2F4858;</string>
+            </property>
+            <property name="text">
+             <string>Add Reminder</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:none;
+color:#2F4858;</string>
+            </property>
+            <property name="text">
+             <string>Set a weekly reminder</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_9" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>150</height>
+             </size>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_7">
+             <item>
+              <widget class="QWidget" name="widget_10" native="true">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>100</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color:rgb(225, 223, 216);
+border:none;</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_4">
+                <item>
+                 <widget class="QComboBox" name="day_combo">
+                  <property name="styleSheet">
+                   <string notr="true">border:none;
+font-size:10pt;
+background-color:#CDB4DB;
+color:black;
+padding:6px;</string>
+                  </property>
+                  <property name="duplicatesEnabled">
+                   <bool>false</bool>
+                  </property>
+                  <item>
+                   <property name="text">
+                    <string>Sunday</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Monday</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Tuesday</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Wednesday</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Thursday</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Friday</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Saturday</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QTimeEdit" name="day_time">
+                  <property name="styleSheet">
+                   <string notr="true">border:none;
+font-size:10pt;
+background-color:#CDB4DB;
+color:black;
+padding:6px;</string>
+                  </property>
+                  <property name="displayFormat">
+                   <string>hh:mm</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QTextEdit" name="day_text">
+                  <property name="styleSheet">
+                   <string notr="true">background-color:#CDB4DB;
+color:black;
+padding-left:10px;
+border:1px solid #9D4EDD;</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="day_button">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>120</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    font-size: 14px;
+	background-color:#A2D2FF;
+	border:none;
+	color:black;
+}
+
+QPushButton:hover {
+    font-size: 16px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Submit</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:none;
+color:#2F4858;</string>
+            </property>
+            <property name="text">
+             <string>Set one time reminder</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_11" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_8">
+             <item>
+              <widget class="QWidget" name="widget_12" native="true">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>100</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color:rgb(225, 223, 216);
+border:none;</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_5">
+                <item>
+                 <widget class="QTimeEdit" name="one_day_time">
+                  <property name="styleSheet">
+                   <string notr="true">border:none;
+font-size:10pt;
+background-color:#CDB4DB;
+color:black;
+padding:6px;</string>
+                  </property>
+                  <property name="displayFormat">
+                   <string>hh:mm</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QDateEdit" name="one_day_date">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>150</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">border:none;
+font-size:10pt;
+background-color:#CDB4DB;
+color:black;
+padding:6px;</string>
+                  </property>
+                  <property name="minimumDate">
+                   <date>
+                    <year>2024</year>
+                    <month>7</month>
+                    <day>14</day>
+                   </date>
+                  </property>
+                  <property name="minimumTime">
+                   <time>
+                    <hour>0</hour>
+                    <minute>0</minute>
+                    <second>0</second>
+                   </time>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QTextEdit" name="one_day_text">
+                  <property name="styleSheet">
+                   <string notr="true">background-color:#CDB4DB;
+color:black;
+padding-left:10px;
+border:1px solid #9D4EDD;</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="one_day_button">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>120</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>-1</pointsize>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    font-size: 14px;
+	background-color:#A2D2FF;
+	border:none;
+	color:black;
+}
+
+QPushButton:hover {
+    font-size: 16px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Submit</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:none;
+color:#2F4858;</string>
+            </property>
+            <property name="text">
+             <string>Set a daily reminder</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_13" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_9">
+             <item>
+              <widget class="QWidget" name="widget_14" native="true">
+               <property name="styleSheet">
+                <string notr="true">background-color:rgb(225, 223, 216);
+border:none;</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_6">
+                <item>
+                 <widget class="QTimeEdit" name="daily_time">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>110</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">border:none;
+font-size:10pt;
+background-color:#CDB4DB;
+color:black;
+padding:6px;</string>
+                  </property>
+                  <property name="displayFormat">
+                   <string>hh:mm</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QTextEdit" name="daily_text">
+                  <property name="styleSheet">
+                   <string notr="true">background-color:#CDB4DB;
+color:black;
+padding-left:10px;
+border:1px solid #9D4EDD;</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="daily_button">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>120</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    font-size: 14px;
+	background-color:#A2D2FF;
+	border:none;
+	color:black;
+}
+
+QPushButton:hover {
+    font-size: 16px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Submit</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
